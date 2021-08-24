@@ -1,0 +1,55 @@
+Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                SizedBox(
+                  width: 10,
+                ),
+                Column(
+                  children: [
+                    IconButton(
+                      alignment: Alignment.topCenter,
+                      icon: Icon(Icons.account_box),
+                      onPressed: null,
+                      iconSize: 30,
+                    ),
+                    Text('Hesap'),
+                  ],
+                ),
+                Column(
+                  children: [
+                    IconButton(
+                      alignment: Alignment.topCenter,
+                      iconSize: 30,
+                      icon: Icon(Icons.not_started),
+                      onPressed: null,
+                    ),
+                    Text('Başla'),
+                  ],
+                ),
+                Column(
+                  children: [
+                    IconButton(
+                      alignment: Alignment.topCenter,
+                      iconSize: 30,
+                      icon: Icon(Icons.map_sharp),
+                      onPressed: null,
+                    ),
+                    Text('Harita'),
+                  ],
+                ),
+                Column(
+                  children: [
+                    IconButton(
+                      alignment: Alignment.topCenter,
+                      iconSize: 30,
+                      icon: Icon(Icons.star),
+                      onPressed: null,
+                    ),
+                    Text('Ödüller'),
+                  ],
+                ),
+                SizedBox(
+                  width: 10,
+                )
+              ],
+            ),
